@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- Indica al navegador que este documento usa HTML5 -->
 
-<html>
+<html lang="es">
 <!-- Inicio del documento HTML -->
 
 <head>
@@ -32,6 +32,7 @@ body{
   /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
 
   display: flex;
+  flex-direction: column;
   /* Activa el sistema Flexbox para organizar y centrar elementos */
 
   justify-content: center;
@@ -45,8 +46,37 @@ body{
 
   font-size: 60px;
   /* Define el tamaño grande del texto */
-
 }
+
+        /* Contenedor principal */
+        .contenedor {
+            width: 80%;
+            margin: auto;
+        }
+
+        /* Sección o bloque */
+        .bloque {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Imagen */
+        .bloque img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Encabezado */
+        .bloque h2 {
+            margin-top: 10px;
+        }
+
+        /* Texto */
+        .bloque p {
+            line-height: 1.5;
+        }
 /* Fin de las reglas de estilo del body */
 
 </style>
@@ -57,9 +87,35 @@ body{
 
 <body>
 <!-- Inicio del contenido visible de la página -->
+   <!-- Contenedor principal -->
+    <div class="contenedor">
 
-Casita Multimedial
+        <!-- BLOQUE 1 -->
+        <div class="bloque">
+            <img src="img/tacita.jpg" alt="grabadotacita">
+            <h1>Casita Multimedial</h1>
+            
+            <p>
+                Este es un texto de ejemplo. Aquí puedes escribir contenido descriptivo,
+                reflexivo o informativo sobre la imagen.
+            </p>
+        </div>
+
+
 <!-- Texto que aparece en el centro de la pantalla -->
+<!-- <img src="img/nalasentada.jpg" alt="Naladibujosentada" align="left" width="300" height="500"> -->
+
+
+<br><br>
+
+<!--a href="obras.html">Obras</a><br> -->
+
+<a href="obras.html">
+  <img src="img/tacita.jpg" alt="Ir a obras" width="100"><br>
+
+<a href="contacto.html">Contactame!</a>
+
+<a href="obrasGrabado.html">Grabados</a>
 
 </body>
 <!-- Fin del contenido visible -->
