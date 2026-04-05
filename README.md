@@ -78,7 +78,7 @@ MULTIMEDIAL
 Semana 2: Enlaces (links)
 
 ```
-//código entregado por el profe//
+//código entregado por el profesor//
 <a href="pagina2.html">Ir a la página 2</a>
 ```
 ##Cómo lo apliqué a mi código: 
@@ -157,7 +157,10 @@ Esto transforma la imagen en un botón visual.
         /* Texto */
         .bloque p {
             line-height: 1.5;
-        }    
+        }
+
+//Pedí ayuda a la IA Grok, para .enlaces {  y .enclances img{
+pregunté cómo colocar los enlaces en el lado derecho, y rescaté lo siguiente:
 
         .enlaces {
             text-align: right;           /* Los pone a la derecha */
@@ -167,7 +170,7 @@ Esto transforma la imagen en un botón visual.
             padding: 0 20px;    
         }
 
-        .enlaces img {
+        .enlaces img { //Este fue inútil finalmente, ya que quité la imagen clickeable y solo deje "obras" como texto
             width: 80px;
             height: auto;
             display: block;
