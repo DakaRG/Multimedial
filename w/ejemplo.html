@@ -1,8 +1,12 @@
+<!-- Pagina "fantasma para probar los códigos previamente y luego copiarlos a su carpeta o pagina correspondiente"-->
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Estructura con Divisiones</title>
+    <title>Casita Multimedial Daka</title>
 
     <style>
         /* Estilo general del cuerpo */
@@ -22,26 +26,59 @@
         .bloque {
             background-color: rgb(237, 193, 122);
             margin: 20px 0;
-            padding: 20px;
+            padding: 40px;
             border-radius: 10px;
         }
 
         /* Imagen */
         .bloque img {
             width: 100%;
-            height: auto;
+            height: 50%;
         }
 
         /* Encabezado */
-        .bloque h2 {
+        .bloque h1 {
+            font-size: 3.4rem;
             margin-top: 10px;
+            color:black
         }
 
         /* Texto */
         .bloque p {
             line-height: 1.5;
+        }    
+
+        .enlaces {
+            text-align: right;           /* Los pone a la derecha */
+            max-width: 700px;
+            margin: 50px auto 0 auto;    /* Distancia arriba y centrado */
+            font-size: 1.5rem;
+            padding: 0 20px;    
         }
+
+        .enlaces img {
+            width: 80px;
+            height: auto;
+            display: block;
+            margin-bottom: 8px;
+        }
+    
+    .boton { /* Define una clase llamada "boton" */
+    background-color: blue; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 15px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
+    width: 150px; /* Ancho fijo del botón */
+    text-align: center; /* Centra el texto horizontalmente */
+    transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+    }
+
+    .boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
+    background-color: red; /* Cambia el color de fondo al pasar el mouse */
+    }
+
     </style>
+
+    <div class="boton">Pasa el mouse</div> <!-- Elemento que usa la clase "boton" -->
 </head>
 
 <body>
@@ -51,35 +88,42 @@
 
         <!-- BLOQUE 1 -->
         <div class="bloque">
-            <img src="img/nalasentada.jpg" alt="Descripción de la imagen">
-            <h2>Título 1</h2>
+            <h1>Casita Multimedial</h1>
+            <img src="img/Fullmontaje2.jpg" alt="Montaje final Intersecciones" max width="100">
+            
             <p>
-                Este es un texto de ejemplo. Aquí puedes escribir contenido descriptivo,
-                reflexivo o informativo sobre la imagen.
-            </p>
-        </div>
+                Daniela Reyes Guerrero <br>
+                Estudiante en cuarto año de Artes Visuales <br>
+                Universidad Finis Terrae <br>
+                Mención en grabado
 
-        <!-- BLOQUE 2 -->
-        <div class="bloque">
-            <img src="imagen2.jpg" alt="Descripción de la imagen">
-            <h2>Título 2</h2>
-            <p>
-                Otro texto que acompaña la imagen. Puedes trabajar narrativa,
-                análisis visual o cualquier tipo de contenido.
-            </p>
-        </div>
+                <br><br>
 
-        <!-- BLOQUE 3 -->
-        <div class="bloque">
-            <img src="imagen3.jpg" alt="Descripción de la imagen">
-            <h2>Título 3</h2>
-            <p>
-                Este es un tercer bloque. Puedes repetir esta estructura
-                tantas veces como quieras.
+                Mi trabajo consta de una exploración en base a diferentes aspectos de lo cotidiano, en busca de honrar mis experiencias y vivencias dentro el espacio íntimo y familiar.
             </p>
         </div>
 
     </div>
+
+<br>
+
+ 
+<!--<a href="obras.html">
+  <img src="img/tacita.jpg" alt="Ir a obras" width="100"><br>
+
+<a href="contacto.html">Contactame!</a>
+
+<a href="obrasGrabado.html">Grabados</a> -->
+
+<div class="enlaces">
+        <a href="obras.html">Obras</a>
+           <!-- <img src="img/tacita.jpg" alt="Ir a obras"><br>
+            Obras
+        </a> -->
+        <a href="obrasGrabado.html">Grabados</a>
+        <a href="contacto.html">Contáctame!</a>
+    </div>
+
 
 </body>
 </html>

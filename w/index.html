@@ -1,52 +1,16 @@
 <!DOCTYPE html>
-<!-- Indica al navegador que este documento usa HTML5 -->
-
-<html lang="es">
-<!-- Inicio del documento HTML -->
-
+<html>
 <head>
-<!-- Sección donde van metadatos, título y estilos -->
+    <meta charset="UTF-8">
+    <title>Casita Multimedial Daka</title>
 
-<meta charset="UTF-8">
-<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
-
-<title>Multimedial</title>
-<!-- Título de la página que aparece en la pestaña del navegador -->
-
-<style>
-/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
-
-body{
-/* "body" se refiere a todo el contenido visible de la página */
-
-  background-color: #D1A65C ;
-  /* Define que el fondo de toda la página sea blanco */
-
-  color: #3B3530;
-  /* Define que el color del texto sea negro */
-
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
-
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
-
-  display: flex;
-  flex-direction: column;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
-
-  justify-content: center;
-  /* Centra el contenido horizontalmente */
-
-  align-items: center;
-  /* Centra el contenido verticalmente */
-
-  font-family: Arial, sans-serif;
-  /* Define la tipografía del texto */
-
-  font-size: 60px;
-  /* Define el tamaño grande del texto */
-}
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            font-family: Comic, sans-serif;
+            background-color: #d4a027;
+            margin: 0;
+        }
 
         /* Contenedor principal */
         .contenedor {
@@ -56,69 +20,91 @@ body{
 
         /* Sección o bloque */
         .bloque {
-            background-color: white;
+            background-color: rgb(237, 193, 122);
             margin: 20px 0;
-            padding: 20px;
+            padding: 40px;
             border-radius: 10px;
         }
 
         /* Imagen */
         .bloque img {
             width: 100%;
-            height: auto;
+            height: 50%;
         }
 
         /* Encabezado */
-        .bloque h2 {
+        .bloque h1 {
+            font-size: 3.4rem;
             margin-top: 10px;
+            color:black
         }
 
         /* Texto */
         .bloque p {
             line-height: 1.5;
+        }    
+
+        .enlaces {
+            text-align: right;           /* Los pone a la derecha */
+            max-width: 700px;
+            margin: 50px auto 0 auto;    /* Distancia arriba y centrado */
+            font-size: 1.5rem;
+            padding: 0 20px;    
         }
-/* Fin de las reglas de estilo del body */
 
-</style>
-<!-- Fin de la sección de estilos -->
+        .enlaces img {
+            width: 80px;
+            height: auto;
+            display: block;
+            margin-bottom: 8px;
+        }
 
+    </style>
 </head>
-<!-- Fin de la sección head -->
 
 <body>
-<!-- Inicio del contenido visible de la página -->
-   <!-- Contenedor principal -->
+
+    <!-- Contenedor principal -->
     <div class="contenedor">
 
         <!-- BLOQUE 1 -->
         <div class="bloque">
-            <img src="img/tacita.jpg" alt="grabadotacita">
             <h1>Casita Multimedial</h1>
+            <img src="img/Fullmontaje2.jpg" alt="Montaje final Intersecciones" max width="100">
             
             <p>
-                Este es un texto de ejemplo. Aquí puedes escribir contenido descriptivo,
-                reflexivo o informativo sobre la imagen.
+                Daniela Reyes Guerrero <br>
+                Estudiante en cuarto año de Artes Visuales <br>
+                Universidad Finis Terrae <br>
+                Mención en grabado
+
+                <br><br>
+
+                Mi trabajo consta de una exploración en base a diferentes aspectos de lo cotidiano, en busca de honrar mis experiencias y vivencias dentro el espacio íntimo y familiar.
             </p>
         </div>
 
+    </div>
 
-<!-- Texto que aparece en el centro de la pantalla -->
-<!-- <img src="img/nalasentada.jpg" alt="Naladibujosentada" align="left" width="300" height="500"> -->
+<br>
 
-
-<br><br>
-
-<!--a href="obras.html">Obras</a><br> -->
-
-<a href="obras.html">
+ 
+<!--<a href="obras.html">
   <img src="img/tacita.jpg" alt="Ir a obras" width="100"><br>
 
 <a href="contacto.html">Contactame!</a>
 
-<a href="obrasGrabado.html">Grabados</a>
+<a href="obrasGrabado.html">Grabados</a> -->
+
+<div class="enlaces">
+        <a href="obras.html">Obras</a>
+           <!-- <img src="img/tacita.jpg" alt="Ir a obras"><br>
+            Obras
+        </a> -->
+        <a href="obrasGrabado.html">Grabados</a>
+        <a href="contacto.html">Contáctame!</a>
+    </div>
+
 
 </body>
-<!-- Fin del contenido visible -->
-
 </html>
-<!-- Fin del documento HTML -->
