@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Otros Proyectos</title>
+    <style>
+        body {
+            font-family: Comic, sans-serif;
+            background-image: url(img/Fullmontaje2.jpg);
+            background-color: #b5853d;
+            margin: 0;
+        }
+
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;
+            gap: 20px;
+        }
+        .barra {
+    background-color: rgb(159, 110, 64);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boton {
+    background-color: rgb(159, 110, 64);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: rgb(246, 230, 222);
+    color: black;
+}
+        
+        .caja {
+            background-color: #fef5dd;
+            margin: 20px 0;
+            padding: 10px; 
+            border-radius: 10px;
+            width: calc(25% - 20px);
+            cursor: pointer; /* 👈 importante */
+        }
+
+        .caja:hover {
+            background-color: rgba(222, 154, 36, 0.841);
+        }
+
+        .caja img {
+            width: 100%;
+            height: 300px;
+            opacity: 0.3;
+        }
+
+        .caja:hover img {
+            transition: 0.3s;
+            opacity: 1.0;
+        }
+
+        /* 🔥 MODAL (imagen ampliada) */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            padding-top: 50px;
+            left: 0;
+            top: 0;
+            width: 80%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal img {
+            margin: auto;
+            display: block;
+            width: 90%;
+            max-height: 80%;
+        }
+
+        .cerrar {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="barra">
+    <a href="index.html" class="boton">Inicio</a>
+    <a href="obras.html" class="boton">Obras</a>
+    <a href="GradoGrabado.html" class="boton">Proyecto de Grado</a>
+    <a href="contacto.html" class="boton">Contáctame</a>
+    <a href="Otrosproyectos.html" class="boton">Proyecto Intersecciones</a>
+    </div>
+
+<div class="contenedor">
+
+    <!-- Solo agregamos onclick -->
+    <div class="caja"><img src="img/Trabajos escaneados/scanner1.jpg" onclick="abrirModal(this)"></div>
+    <div class="caja"><img src="img/Trabajos escaneados/scanner2.jpg" onclick="abrirModal(this)"></div>
+    <div class="caja"><img src="img/Trabajos escaneados/scanner3.jpg" onclick="abrirModal(this)"></div>
+    <div class="caja"><img src="img/Trabajos escaneados/scanner4.jpg" onclick="abrirModal(this)"></div>
+    <div class="caja"><img src="img/Trabajos escaneados/scanner5.jpg" onclick="abrirModal(this)"></div>
+     <div class="caja"><img src="img/Trabajos escaneados/scanner6.jpg" onclick="abrirModal(this)"></div> 
+        <div class="caja"><img src="img/Trabajos escaneados/scanner7.jpg" onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner8.jpg" onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner9.jpg" onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner10.jpg" onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner11.jpg" onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner12.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner13.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner14.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner15.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner16.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner17.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner18.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner19.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner20.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner21.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner22.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner23.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner24.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner25.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner26.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner27.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner28.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner29.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner30.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner31.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner32.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner33.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner34.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner35.jpg"onclick="abrirModal(this)"></div>
+        <div class="caja"><img src="img/Trabajos escaneados/scanner36.jpg"onclick="abrirModal(this)"></div>
+
+    <!-- puedes repetir lo mismo en todas -->
+    
+</div>
+
+<!-- 🔥 MODAL -->
+<div id="miModal" class="modal" onclick="cerrarModal()">
+    <span class="cerrar">&times;</span>
+    <img id="imagenGrande">
+</div>
+
+
+<!-- 🔧 JAVASCRIPT -->
+<script>
+function abrirModal(img) {
+    var modal = document.getElementById("miModal");
+    var imagenGrande = document.getElementById("imagenGrande");
+
+    modal.style.display = "block";
+    imagenGrande.src = img.src;
+}
+
+function cerrarModal() {
+    document.getElementById("miModal").style.display = "none";
+}
+</script>
+
+</body>
+</html>

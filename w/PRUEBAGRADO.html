@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyectos de Grado - Grabado</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", Comic, sans-serif;
+            background-color: #6e481d;
+            margin: 0;
+            color: #333;
+        }
+
+        .barra {
+            background-color: rgb(159, 110, 64);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .boton {
+            background-color: rgb(159, 110, 64);
+            color: white;
+            padding: 12px 22px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        .boton:hover {
+            background-color: rgb(246, 230, 222);
+            color: black;
+        }
+
+        h1 {
+            text-align: center;
+            color: #f6e8cc;
+            margin: 40px 0 30px 0;
+            font-size: 2.8rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        /* Contenedor principal */
+        .contenedor {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Foto principal grande */
+        .foto-principal {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .foto-principal img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+        }
+
+        /* Grilla de imágenes pequeñas */
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .caja {
+            background-color: #fef5dd;
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .caja:hover {
+            background-color: #f6d9a0;
+            transform: translateY(-5px);
+        }
+
+        .caja img {
+            width: 100%;
+            height: 280px;           /* tamaño pequeño */
+            object-fit: cover;
+            border-radius: 8px;
+            opacity: 0.85;
+        }
+
+        .caja:hover img {
+            opacity: 1;
+        }
+
+        .caja h2 {
+            margin: 12px 0 8px 0;
+            font-size: 1.3rem;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.92);
+            padding-top: 50px;
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 85vh;
+            border-radius: 10px;
+        }
+
+        .cerrar {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: white;
+            font-size: 45px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        .cerrar:hover {
+            color: #ffdddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="barra">
+        <a href="index.html" class="boton">Inicio</a>
+        <a href="obras.html" class="boton">Obras</a>
+        <a href="obrasGrabado.html" class="boton">Grabados</a>
+        <a href="contacto.html" class="boton">Contáctame</a>
+        <a href="Otrosproyectos.html" class="boton">Proyecto Intersecciones</a>
+    </div>
+
+    <h1>Proyectos de Grado - Mención en Grabado</h1>
+
+    <div class="contenedor">
+
+        <!-- Foto principal grande -->
+        <div class="foto-principal">
+            <img src="img/ponerlamesa.jpg" alt="Entrega 1 Grabado">
+        </div>
+
+        <!-- Galería de imágenes pequeñas -->
+        <div class="galeria">
+
+            <div class="caja" onclick="abrirModal(this)">
+                <img src="img/Mermelada.jpg" alt="Cero Ausencia">
+                <h2>Cero Ausencia</h2>
+            </div>
+
+            <div class="caja" onclick="abrirModal(this)">
+                <img src="img/Cafe.jpg" alt="A diario">
+                <h2>A diario</h2>
+            </div>
+
+            <div class="caja" onclick="abrirModal(this)">
+                <img src="img/CajaLeche.jpg" alt="Casita & Co">
+                <h2>Casita & Co</h2>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="miModal" class="modal" onclick="if(event.target === this) cerrarModal()">
+        <span class="cerrar" onclick="cerrarModal()">&times;</span>
+        <img id="imagenGrande" class="modal-content">
+    </div>
+
+    <script>
+        function abrirModal(elemento) {
+            const modal = document.getElementById("miModal");
+            const imagenGrande = document.getElementById("imagenGrande");
+            
+            // Tomamos la imagen que está dentro de la caja
+            const imgClicada = elemento.querySelector("img");
+            
+            imagenGrande.src = imgClicada.src;
+            modal.style.display = "block";
+        }
+
+        function cerrarModal() {
+            document.getElementById("miModal").style.display = "none";
+        }
+
+        // Cerrar modal con tecla Escape
+        document.addEventListener("keydown", function(e) {
+            if (e.key === "Escape") {
+                cerrarModal();
+            }
+        });
+    </script>
+
+</body>
+</html>

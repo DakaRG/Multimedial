@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PtoyectosdeGradoGrabado</title>
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            font-family: Comic, sans-serif;
+            background-color: #6e481d;
+            margin: 0;
+            color: #333; /*agregó esto*/
+        }
+
+        .barra {
+            background-color: rgb(159, 110, 64);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap; /*esto y subió el padding un 5%*/
+        }
+
+        .boton {
+            background-color: rgb(159, 110, 64);
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s;
+            font-weight: bold; /*Esto pone en negrita */
+        }
+
+        .boton:hover {
+            background-color: rgb(246, 230, 222);
+            color: black;
+        }
+
+        h1 {
+                    text-align: center;
+                    color: #f6e8cc;
+                    margin: 40px 0 30px 0;
+                    font-size: 2.8rem;
+                   
+         }
+
+        /* Contenedor principal */
+        .contenedor {
+            width: 90%; /*de 70 a 90*/
+            max-width: 1200px;
+            margin: auto;
+            gap: 20px;
+
+        }
+
+        /* Sección o bloque */
+        .caja {
+            background-color: #fef5dd;
+            margin: 20px 0;
+            padding: 10px; 
+            border-radius: 10px;
+            width: calc(30% - 50px);
+            cursor: pointer; /* 👈 importante */
+        }
+
+        .caja:hover {
+            background-color: rgba(222, 154, 36, 0.841);
+        }
+
+        .caja img {
+            width: 100%;
+            height: 300px;
+            opacity: 0.3;
+        }
+
+        .caja:hover img {
+            transition: 0.3s;
+            opacity: 1.0;
+        }
+
+        /* 🔥 MODAL (imagen ampliada) */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            padding-top: 50px;
+            left: 0;
+            top: 0;
+            width: 80%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal img {
+            margin: auto;
+            display: block;
+            width: 90%;
+            max-height: 80%;
+        }
+
+        .cerrar {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            cursor: pointer;
+        }
+
+        /* Encabezado */
+        .bloque h2 {
+            margin-top: 10px;
+        }
+
+        /* Texto */
+        .bloque p {
+            line-height: 1.5;
+        }
+        
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="barra">
+    <a href="index.html" class="boton">Inicio</a>
+    <a href="obras.html" class="boton">Obras</a>
+    <a href="contacto.html" class="boton">Contáctame</a>
+    <a href="Otrosproyectos.html" class="boton">Proyecto Intersecciones</a>
+</div>
+
+    <h1> Proyectos de Grado mención en Grabado</h1>
+
+
+
+    <div class="contenedor">
+
+        <img src="img/ponerlamesa.jpg" alt="Entrega1Grabado" width="800" height="500">
+
+        <br>
+
+        <!-- BLOQUE 1 -->
+        <div class="caja">
+            <img src="img/Mermelada.jpg" alt="grabadomermelada" onclick="abrirModal(this)">
+            <h2>Cero Ausencia</h2>
+        
+        </div>
+
+        <div class="caja">
+            <img src="img/Cafe.jpg" alt="grabadodecafe" onclick="abrirModal(this)">
+            <h2>A diario</h2>
+            
+        </div>
+
+        <div class="caja">
+            <img src="img/CajaLeche.jpg" alt="grabadocajadeleche" onclick="abrirModal(this)">
+            <h2>Casita & Co</h2>
+        
+        </div>
+
+    </div>
+<div id="miModal" class="modal" onclick="cerrarModal()">
+    <span class="cerrar">&times;</span>
+    <img id="imagenGrande">
+</div>
+
+
+<!-- 🔧 JAVASCRIPT -->
+<script>
+function abrirModal(img) {
+    var modal = document.getElementById("miModal");
+    var imagenGrande = document.getElementById("imagenGrande");
+
+    modal.style.display = "block";
+    imagenGrande.src = img.src;
+}
+
+function cerrarModal() {
+    document.getElementById("miModal").style.display = "none";
+}
+</script>
+
+</body>
+</html>

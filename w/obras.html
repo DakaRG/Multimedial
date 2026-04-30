@@ -13,8 +13,19 @@
 
         /* Contenedor principal */
         .contenedor {
-            width: 60%;
+            display: flex;
+            justify-content: space space-around;
+            width: 70%;
             margin: auto;
+            gap: 20px;
+
+        }
+        
+        .caja {
+            background-color: #c9a470;
+            margin: 20px 0;
+            padding: 60px; 
+            border-radius: 10px;
         }
 
         /* Sección o bloque */
@@ -31,77 +42,85 @@
             height: auto;
         }
 
+
         /* Encabezado */
         .bloque h2 {
+            
             margin-top: 10px;
+            color:rgb(48, 30, 14)
         }
 
         /* Texto */
         .bloque p {
+            font: comic;
             line-height: 1.5;
         }
-        .enlaces {
-            text-align: right;           /* Los pone a la derecha */
-            max-width: 700px;
-            margin: 50px auto 0 auto;    /* Distancia arriba y centrado */
-            font-size: 1.5rem;
-            padding: 0 20px;    
-        }
+        .barra {
+    background-color: rgb(159, 110, 64);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
-        .enlaces img {
-            width: 80px;
-            height: auto;
-            display: block;
-            margin-bottom: 8px;
-        }
+.boton {
+    background-color: rgb(159, 110, 64);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: rgb(246, 230, 222);
+    color: black;
+}
     </style>
 
 </head>
 
 <body>
+    <div class="barra">
+    <a href="index.html" class="boton">Inicio</a>
+    <a href="obras.html" class="boton">Obras</a>
+    <a href="GradoGrabado.html" class="boton">Proyecto de Grado</a>
+    <a href="contacto.html" class="boton">Contáctame</a>
+    <a href="Otrosproyectos.html" class="boton">Proyecto Intersecciones</a>
+</div>
     <div class="contenedor">
 
-        <!-- BLOQUE 1 -->
-        <div class="bloque">
-            <img src="img/nalasonrisa.jpg" alt="dibujodeNalaSonriendo" width="300" height="500"> 
-            <h2>NaliCaras</h2>
+
+        <div class="caja"><img src="img/nalasentada.jpg">
+        
+        <h2>NaliCaras</h2>
             <p>
                 Este trabajo es parte de una serie de dibujos de lapices pastel sobre papel kraft,
                 donde retrato diferentes expresiones de mi mascota Nala (160x210cm)
             </p>
-        </div>
-
-        <!-- BLOQUE 2 -->
-        <div class="bloque">
-            <img src="img/nalasentada.jpg" alt="DibujoNalaSentada">
-            <h2>Nalicaras pt2</h2>
+        </div> <!-- Primer bloque -->
+        
+        <div class="caja"><img src="img/nalasonrisa.jpg">
+        <h2>Nalicaras pt2</h2>
             <p>
                 Otra exploración de las expresiones de Nala (160x210cm)
             </p>
-        </div>
-
-        <!-- BLOQUE 3 -->
-        <div class="bloque">
-            <img src="img/retGordo.jpg" alt="PinturaAcrilicaGordo">
-            <h2>Retrato de "Gordo"</h2>
+        </div> <!-- Segundo bloque -->
+        <div class="caja"><img src="img/retGordo.jpg">
+        <h2>Retrato de "Gordo"</h2>
             <p>
                 Retrato acrilico sobre rueda de madera 5mm (15cm).
-            </p>
-        </div>
+            </p> 
+        </div> <!-- Tercer bloque -->
+            
+
+        <div class="bloque">
+            <p> Conjunto de obras dedicadas a retratar la imagen de dos de mis mascotas: Nala y Chico (Gordo). </p>
+
+        </div>    
 
     </div>
 
-<!-- <h1>Mi Trabajo</h1>
-
-<img src="img/nalasonrisa.jpg" alt="nalasonrisa" width="300" height="500">
-
-<p>Mi trabajo se caracteriza por una investigación y retrato de lo cotidiano, lo íntimo del hogar</p>
--->
-<div class="enlaces">
-    <a href="index.html">Inicio</a><br>
-    <a href="contacto.html">Contáctame!</a> 
-    <a href="obrasGrabado.html">Grabados</a>
-<div>
 
 </body>
 </html>
