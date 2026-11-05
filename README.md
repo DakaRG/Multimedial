@@ -453,3 +453,22 @@ pregunté cómo colocar los enlaces en el lado derecho, y rescaté lo siguiente:
 ```
 
 Tengo carpetas "fanstasmas" donde aplico cosas pedidas al código, las llamo "Ejemplo____.html". Allí hay códigos con modificaciones aún no visibles en la página pero que me sirven de experimentación y aprendizaje sin perjudicar el original.
+
+RESULTADOS PAGINA WEB
+(https://dakarg.github.io/Multimedial/w/index.html)
+
+
+## <font color= "#46071a">  UNIDAD 2. [programacion visual basada en nodos] <br>
+
+1. <font color="#ffffff">[intro a TD] (#1-intro-a-touch-designer)</font> <br>
+2. <font color="#ffffff">[ejercicios:] (#1-)</font>
+
+## Touch Designer 
+(https://drive.google.com/drive/folders/1SoQ9-Fvf1wRwaFWFIU4CYBCApyw4ZsVZ?usp=sharing)
+
+## point
+
+## lsystem
+<img src="w/img/lsystempantallazo.png" alt="lsyistem">
+
+<img src="https://media.giphy.com/media/4d2A4ovx4HZ3KXqb9f/giphy.gif" width="500">
