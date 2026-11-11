@@ -463,10 +463,23 @@ RESULTADOS PAGINA WEB
 1. <font color="#ffffff">[intro a TD] (#1-intro-a-touch-designer)</font> <br>
 2. <font color="#ffffff">[ejercicios:] (#1-)</font>
 
-## Touch Designer 
+# Touch Designer 
 (https://drive.google.com/drive/folders/1SoQ9-Fvf1wRwaFWFIU4CYBCApyw4ZsVZ?usp=sharing)
 
-## point
+## primeros ejercicios 1
+<img src="https://media.giphy.com/media/SQWWR7mwGWtQfPGDal/giphy.gif" width="500">
+
+## primero ejercicios 2
+
+<img src="https://media.giphy.com/media/nDoAeCTas4IKtPoGnG/giphy.gif" width="500">
+
+
+## point CREO
+
+<img src="https://media.giphy.com/media/fzNUxZI6NgBcf1yOMC/giphy.gif" width="500"> 
+
+## Mapping
+<img src="https://media.giphy.com/media/xWhu22LHPkexCaikJ0/giphy.gif" width="500">  
 
 ## lsystem
 <img src="w/img/lsystempantallazo.png" alt="lsyistem">
