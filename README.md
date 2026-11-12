@@ -471,7 +471,7 @@ RESULTADOS PAGINA WEB
 
 ## primero ejercicios 2
 
-<img src="https://media.giphy.com/media/nDoAeCTas4IKtPoGnG/giphy.gif" width="500">
+<img src="https://media.giphy.com/media/nDoAeCTas4IKtPoGnG/giphy.gif" width="500"> 
 
 
 ## point CREO
