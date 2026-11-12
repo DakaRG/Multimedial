@@ -455,33 +455,57 @@ pregunté cómo colocar los enlaces en el lado derecho, y rescaté lo siguiente:
 Tengo carpetas "fanstasmas" donde aplico cosas pedidas al código, las llamo "Ejemplo____.html". Allí hay códigos con modificaciones aún no visibles en la página pero que me sirven de experimentación y aprendizaje sin perjudicar el original.
 
 RESULTADOS PAGINA WEB
-(https://dakarg.github.io/Multimedial/w/index.html)
+(https://dakarg.github.io/Multimedial/w/index.html) <br> <br>
 
 
-## <font color= "#46071a">  UNIDAD 2. [programacion visual basada en nodos] <br>
 
-1. <font color="#ffffff">[intro a TD] (#1-intro-a-touch-designer)</font> <br>
-2. <font color="#ffffff">[ejercicios:] (#1-)</font>
+## UNIDAD 2. [programacion visual basada en nodos]
+
 
 # Touch Designer 
-(https://drive.google.com/drive/folders/1SoQ9-Fvf1wRwaFWFIU4CYBCApyw4ZsVZ?usp=sharing)
+(https://drive.google.com/drive/folders/1SoQ9-Fvf1wRwaFWFIU4CYBCApyw4ZsVZ?usp=sharing) <br>
 
 ## primeros ejercicios 1
-<img src="https://media.giphy.com/media/SQWWR7mwGWtQfPGDal/giphy.gif" width="500">
+<img src="https://media.giphy.com/media/SQWWR7mwGWtQfPGDal/giphy.gif" width="500"> <br>
 
 ## primero ejercicios 2
 
-<img src="https://media.giphy.com/media/nDoAeCTas4IKtPoGnG/giphy.gif" width="500"> 
+<img src="https://media.giphy.com/media/nDoAeCTas4IKtPoGnG/giphy.gif" width="500"> <br>
 
 
 ## point CREO
 
-<img src="https://media.giphy.com/media/fzNUxZI6NgBcf1yOMC/giphy.gif" width="500"> 
+<img src="https://media.giphy.com/media/fzNUxZI6NgBcf1yOMC/giphy.gif" width="500"> <br>
 
 ## Mapping
-<img src="https://media.giphy.com/media/xWhu22LHPkexCaikJ0/giphy.gif" width="500">  
+<img src="https://media.giphy.com/media/xWhu22LHPkexCaikJ0/giphy.gif" width="500">  <br>
 
 ## lsystem
-<img src="w/img/lsystempantallazo.png" alt="lsyistem">
 
-<img src="https://media.giphy.com/media/4d2A4ovx4HZ3KXqb9f/giphy.gif" width="500">
+<img src="https://media.giphy.com/media/4d2A4ovx4HZ3KXqb9f/giphy.gif" width="500"> <br> <br>
+
+En conjunto al desarrollo de este ejercicio, nos dejaron el encargo de ver el documental de Donna Haraway <br>
+
+(https://www.youtube.com/watch?v=nhKIcniCmQM) <br>
+
+Mi reflexión respecto al documental: <br>
+(https://docs.google.com/document/d/19E487wPjPBhdmnsrZqrMrADv8J_fBGGMD9YNuquovrs/edit?tab=t.0) <br> <br>
+
+
+## Comfy Desktop
+
+Se nos pidió hacer uso de la herramienta Comfy Desktop, para aprender sobre la creacion de prompts y el uso correcto de IA. Para esto utilizamos el guón guión y storyboard que se creó a fines del primer semestre. <br>
+
+(https://drive.google.com/drive/folders/116-FnyqVQzShQPtx1KIf2Z4UouCWDtXC) 
+
+La primera imagen que probé por mi cuenta fue: 
+
+<img src="img bit/avejardin.png" alt="avejardin" width="600"> <br> <br>
+
+Desde aquí se nos dio la instrucción de aprovechar el storyboard y el guión, así que comecé a crear imagenes relacionadas a mi guón, pero decidí acortarlo y centrarme solo en el proceso de vuelta a casa y de quienes me recibian. Pasando primero por mi perrito fallecido, el gordo, y que hoy son Nalita y Perlita. <br>
+
+<img src="img bit/tarjeta funcional.png" alt="tarjeta" width="600"><br>
+
+<img src="img bit/gordo y nalita.png" alt="gordo y nala" width="600"><br>
+
+<img src="img bit/niñass 1.png" alt="nalitayperla" width="600"><br>
